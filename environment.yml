@@ -1,4 +1,4 @@
-name: sports_env
+name: giants_pass_pro
 channels:
   - conda-forge
   - defaults
