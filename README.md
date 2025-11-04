@@ -3,7 +3,7 @@
 Key Question: Is the New York Giants Offensive Line providing sufficient protection for rookie quarterback Jaxson Dart and for the offense in general? The Giants are ranked 19th in the NFL in average passing yards per game (as of November 4, 2025). How much responsibility does the offensive line have for this subpar passing performance?
 
 # Tools Used and Methods
-To complete this project, I utilized a Python script (seen in this repository) and made use of the nflverse Python libary. From this library I obtained play-by-play data from all the games in the 2025 NFL season. I also used the Pandas and matplotlib libaries to filter the data to only the NY Giants offensive plays, and then further to only their pass plays of the season. After searching through the data I discovered there were some anomalies with two-point conversion plays and thus filtered them out.
+To complete this project, I utilized a Python script (seen in this repository) and made use of the nflreadpy Python libary. From this library I obtained play-by-play data from all the games in the 2025 NFL season. I also used the Pandas and matplotlib libaries to filter the data to only the NY Giants offensive plays, and then further to only their pass plays of the season. After searching through the data I discovered there were some anomalies with two-point conversion plays and thus filtered them out.
 
 I then grouped the plays by down and by remaining distance (e.g. 1st and 10) and found the sack rate on each category to find situational weaknesses. I imported this aggregated data into Tableau and produced the visualization below.
 
